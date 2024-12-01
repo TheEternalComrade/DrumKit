@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Drumkit</title>
+</head>
+<body>
+
+    <h1>Drumkit</h1>
+    <div class="keys">
+        <div class="key" data-key="W">
+            <h1>W</h1>
+            <span class="sound">CLAP</span>
+        </div>
+        <div class="key" data-key="A">
+            <h1>A</h1>
+            <span class="sound">CRASH</span>
+        </div>
+        <div class="key" data-key="S">
+            <h1>S</h1>
+            <span class="sound">KICK</span>
+        </div>
+        <div class="key" data-key="D">
+            <h1>D</h1>
+            <span class="sound">SNARE</span>
+        </div>
+        <div class="key" data-key="I">
+            <h1>I</h1>
+            <span class="sound">TOM1</span>
+        </div>
+        <div class="key" data-key="J">
+            <h1>J</h1>
+            <span class="sound">TOM2</span>
+        </div>
+        <div class="key" data-key="K">
+            <h1>K</h1>
+            <span class="sound">TOM3</span>
+        </div>
+        <div class="key" data-key="L">
+            <h1>L</h1>
+            <span class="sound">TOM4</span>
+        </div>
+
+        <audio src="./sounds/clap-2-95736.mp3" data-key="W"></audio>
+        <audio src="./sounds/crash.mp3" data-key="A"></audio>
+        <audio src="./sounds/kick-bass.mp3" data-key="S"></audio>
+        <audio src="./sounds/snare.mp3" data-key="D"></audio>
+        <audio src="./sounds/tom-1.mp3" data-key="I"></audio>
+        <audio src="./sounds/tom-2.mp3" data-key="J"></audio>
+        <audio src="./sounds/tom-3.mp3" data-key="K"></audio>
+        <audio src="./sounds/tom-4.mp3" data-key="L"></audio>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
